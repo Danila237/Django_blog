@@ -1,0 +1,33 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+header {
+    border-bottom: 5px solid gray;
+    margin-bottom: 2rem;
+    display: flex;
+}
+header h1 a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+.post-entry {
+    margin-bottom: 0.5rem;
+}
+.post-entry h2 {
+    margin: 0.5rem 20;
+}
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.post-entry p {
+    margin: 10;
+    font-weight: 700;
+}
+.post-entry h2 a:hover {
+    color: red;
+}
